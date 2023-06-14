@@ -11,32 +11,32 @@ const data = [
     },
     {
         icon: "./asset/mongodb.png",
-        name: "Node Js",
+        name: "Mongo DB",
         percentage: "60%"
     },
     {
         icon: "./asset/javascript.png",
-        name: "Node Js",
+        name: "JavaScript",
         percentage: "70%"
     },
     {
         icon: "./asset/html5.png",
-        name: "Node Js",
+        name: "HTML5",
         percentage: "80%"
     },
     {
         icon: "./asset/css3.png",
-        name: "Node Js",
+        name: "CSS3",
         percentage: "70%"
     },
     {
         icon: "./asset/sql.png",
-        name: "Node Js",
+        name: "SQL",
         percentage: "60%"
     },
     {
         icon: "./asset/java.png",
-        name: "Node Js",
+        name: "JAVA",
         percentage: "50%"
     }
 ]
