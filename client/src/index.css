@@ -1,0 +1,416 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #645caa !important;
+}
+
+.App {
+  background-color: #eef1ff;
+
+  font-family: "League Spartan", sans-serif;
+}
+
+/*########################---------Header CSS------#################################*/
+
+.navbar-brand {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.nav-link {
+  color: #645caa !important;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+.navbar {
+  min-height: 90px !important; /*i assume your navbar size 100px*/
+}
+
+.header-cover-left > div {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header-cover {
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.header-cover-left {
+  animation: left;
+  animation-duration: 0.8s;
+  animation-timing-function: ease;
+  /* padding: 200px; */
+}
+
+.header-cover-left p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.header-button {
+  display: block;
+  padding: 10px 0;
+  width: 200px;
+  border-radius: 20px;
+  border: 0.3px solid #b1b2ff;
+  background: none;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.header-button:hover {
+  background-color: #645caa;
+
+  color: #eee !important;
+}
+
+.header-cover-right {
+  animation: right;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+
+.header-cover-right > img {
+  width: 400px;
+  height: 400px;
+  border-radius: 62% 38% 70% 30% / 50% 43% 57% 50%;
+}
+
+@keyframes left {
+  0% {
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes right {
+  0% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+/*########################---------Experience CSS------#################################*/
+
+.exp-heading {
+  display: flex;
+  justify-content: space-around;
+}
+.exp-heading h2 {
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.exp {
+  margin-bottom: 100px;
+}
+
+/* .exp > Timeline {
+  color: #eee !important;
+} */
+
+/* .exp-contant {
+  height: 70vh;
+  position: relative;
+  width: 100%;
+}
+
+.vertical-line {
+  position: absolute;
+  height: 330px;
+  width: 2px;
+  background-color: #b1b2ff;
+  top: 80px;
+  left: 50%;
+}
+
+.circle-1 {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #aac4ff;
+  width: 20px;
+  height: 20px;
+  top: 10%;
+  left: 49.38%;
+}
+
+.circle-1-2 {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #d2daff;
+  width: 14px;
+  height: 14px;
+  top: 10.4%;
+  left: 49.54%;
+}
+
+.edu-list-1 {
+  position: absolute;
+  right: 51%;
+  top: 9.7%;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.circle-2 {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #aac4ff;
+  width: 20px;
+  height: 20px;
+  top: 33%;
+  left: 49.38%;
+}
+
+.circle-2-2 {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #d2daff;
+  width: 14px;
+  height: 14px;
+  top: 33.4%;
+  left: 49.54%;
+}
+
+.edu-list-2 {
+  position: absolute;
+  right: 51%;
+  top: 33%;
+}
+
+.circle-3 {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #aac4ff;
+  width: 20px;
+  height: 20px;
+  top: 59%;
+  left: 49.38%;
+}
+
+.circle-3-3 {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #d2daff;
+  width: 14px;
+  height: 14px;
+  top: 59.3%;
+  left: 49.54%;
+}
+
+.edu-list-3 {
+  position: absolute;
+  right: 49.6%;
+  top: 59%;
+}
+
+.circle-4 {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #aac4ff;
+  width: 20px;
+  height: 20px;
+  top: 21%;
+  left: 49.38%;
+}
+
+.circle-4-4 {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #d2daff;
+  width: 14px;
+  height: 14px;
+  top: 21.3%;
+  left: 49.54%;
+}
+
+.exp-list-1 {
+  position: absolute;
+  right: 14.5%;
+  top: 21%;
+} */
+
+/*########################---------Skills CSS------#################################*/
+
+.skills {
+  width: 100%;
+}
+
+.skills-title {
+  text-align: center;
+}
+
+.skills-list {
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+}
+
+.skills-name {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.skills-card {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills-percentage {
+  font-size: 20px;
+}
+
+/*########################---------Projects CSS------#################################*/
+
+.projects {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
+
+.project-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.project-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 400px !important;
+  transition: 0.5s ease-out;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.09);
+}
+
+.btn {
+  transition: 0.5s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #645caa;
+
+  color: #eee !important;
+}
+
+.card > img {
+  height: 250px;
+}
+
+.footer {
+  height: 180px;
+  padding: 20px;
+  background-color: #b1b2ff;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-link a {
+  margin: 0 10px;
+}
+
+.footer-link p {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.copyright {
+  margin-top: 30px;
+  font-size: 18px;
+  text-align: center;
+}
+.copyright > p {
+  color: #eee !important;
+}
+
+.arrow {
+  display: block;
+  padding: 10px 0;
+  width: 60px;
+  border-radius: 20px;
+  border: 0.3px solid #b1b2ff;
+  background: none;
+  text-align: center;
+  transition: 0.3s ease;
+  position: fixed;
+  top: 75%;
+  right: 5%;
+}
+
+.arrow:hover {
+  background-color: #645caa;
+}
+
+@media only screen and (max-width: 1000px) {
+  .header-cover {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "image"
+      "content";
+  }
+
+  .header-cover-right {
+    grid-area: image;
+  }
+  .header-cover-left {
+    grid-area: content;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .arrow {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .header-cover-right > img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .footer {
+    height: 220px;
+  }
+}
