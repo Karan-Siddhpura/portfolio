@@ -37,7 +37,44 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">
             Quality Engineer
           </h4>
-          <p>6 months of work experience.</p>
+          <p>
+            <b> Project Name - NYCERS</b> <br /> In the NYCERS project, I worked
+            as a Manual Tester, where I was responsible for creating detailed
+            test cases to ensure the functionality and quality of the
+            application on the Salesforce platform as well as other client
+            websites. I collaborated closely with both onshore and offshore
+            teams, along with developers, to understand the project requirements
+            thoroughly and ensure effective testing.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2022 - 2023"
+          position={"right"}
+        >
+          <h3 className="vertical-timeline-element-title">DEPT India</h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Software Developer
+          </h4>
+          <p>
+            <b>Project Name - Solaire Boutique</b> <br />I excel at
+            understanding client requirements and translating them into dynamic,
+            responsive web applications that prioritize both user experience and
+            performance. Integrating API calls to dynamically fetch and display
+            data, ensuring a seamless user experience across devices.
+            <br />
+            <b>Project Name - Vijay Sales</b> <br /> I worked on the Vijay Sales
+            project, leading a POC for server-side rendering (SSR) with React.js
+            and Adobe Commerce, optimizing reusable components to enhance
+            performance and SEO. Alongside frontend tasks, I contributed as a
+            backend developer, creating custom configurations, extending Adobe
+            Commerce functionality, and developing REST endpoints and GraphQL
+            APIs for seamless frontend-backend communication. Visiting the
+            client’s site allowed me to refine the project based on real-time
+            feedback, strengthening collaboration. This project gave me the
+            chance to work across the full stack, applying both frontend and
+            backend expertise.
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -55,6 +92,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2017 - 2019"
+          position={"left"}
         >
           <h3 className="vertical-timeline-element-title">
             Jr College Sardhar Vallabhbhai Patel College

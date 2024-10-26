@@ -24,7 +24,7 @@ function Header() {
           </p>
           <a
             download
-            href="./asset/Karan_Siddhpura_Resume.pdf"
+            href="./asset/Karan-Siddhpura-Resume.pdf"
             className="button header-button"
           >
             Download Resume
