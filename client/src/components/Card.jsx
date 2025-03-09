@@ -20,7 +20,7 @@ function Card({ image, title, content, link, github }) {
         >
           Git Hub
         </a>
-        <a
+        {/* <a
           href={link}
           target="_blank"
           type="button"
@@ -32,7 +32,7 @@ function Card({ image, title, content, link, github }) {
           }}
         >
           Demo
-        </a>
+        </a> */}
       </div>
     </div>
   );

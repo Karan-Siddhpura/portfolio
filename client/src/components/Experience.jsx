@@ -30,26 +30,7 @@ function Experience() {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2022 - 2023"
-          position={"right"}
-        >
-          <h3 className="vertical-timeline-element-title">Accenture India</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            Quality Engineer
-          </h4>
-          <p>
-            <b> Project Name - NYCERS</b> <br /> In the NYCERS project, I worked
-            as a Manual Tester, where I was responsible for creating detailed
-            test cases to ensure the functionality and quality of the
-            application on the Salesforce platform as well as other client
-            websites. I collaborated closely with both onshore and offshore
-            teams, along with developers, to understand the project requirements
-            thoroughly and ensure effective testing.
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2022 - 2023"
+          date="2023 - Present"
           position={"right"}
         >
           <h3 className="vertical-timeline-element-title">DEPT India</h3>
@@ -74,6 +55,33 @@ function Experience() {
             feedback, strengthening collaboration. This project gave me the
             chance to work across the full stack, applying both frontend and
             backend expertise.
+            <br />
+            <b>Project Name - TATA AIA</b>
+            <br />
+            Developed scalable, reusable components and optimized UI
+            functionality using vanilla JavaScript, ensuring performance,
+            responsiveness, and maintainability. Implemented advanced analytics
+            tracking by integrating API calls to capture and analyze user
+            interactions, enabling data-driven insights for business decisions.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2022 - 2023"
+          position={"right"}
+        >
+          <h3 className="vertical-timeline-element-title">Accenture India</h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Quality Engineer
+          </h4>
+          <p>
+            <b> Project Name - NYCERS</b> <br /> In the NYCERS project, I worked
+            as a Manual Tester, where I was responsible for creating detailed
+            test cases to ensure the functionality and quality of the
+            application on the Salesforce platform as well as other client
+            websites. I collaborated closely with both onshore and offshore
+            teams, along with developers, to understand the project requirements
+            thoroughly and ensure effective testing.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement

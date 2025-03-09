@@ -31,8 +31,13 @@ const data = [
   },
   {
     icon: "./asset/adobeCommerce.png",
-    name: "Adobe Commerce",
+    name: "AEM / Adobe Commerce",
     percentage: "50%",
+  },
+  {
+    icon: "./asset/graphql.svg",
+    name: "GraphQL",
+    percentage: "40%",
   },
 ];
 

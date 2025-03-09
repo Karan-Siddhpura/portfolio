@@ -23,6 +23,9 @@ function Footer() {
           >
             <img src="./asset/linkedin.png" />
           </Link>
+          <Link to="https://github.com/Karan-Siddhpura" target="_blank">
+            <img src="./asset/github.svg" />
+          </Link>
         </div>
         <div className="copyright">
           <p>Contact - siddhpura306@gmail.com | 8879840046</p>
